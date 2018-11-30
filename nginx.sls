@@ -12,6 +12,7 @@ nginx:
     - enable: True
     - watch:
       - pkg: nginx
+      - file: /etc/nginx/nginx.conf
 
 /etc/nginx/sites-available/webserver.conf:
   file.managed:
