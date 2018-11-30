@@ -13,6 +13,6 @@ Enables and runs the nginx service
 
 nginx service persists after reboot
 
-Creates a webserver.conf file and syncs it with nginx/webserver.conf
+Creates a webserver.conf file and syncs it with /srv/slat/nginx/webserver.conf
 
 webserver.conf file changes the listening port to 3200
